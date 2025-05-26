@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encryption Tool</title>
+</head>
+<body>
+    <div class="container">
+        <h1>File Encryption Tool</h1>
+        <div class="form-section">
+            <h2>Encrypt a File</h2>
+            <form id="encrypt-form">
+                <label for="encrypt-file-path">File Path:</label>
+                <input type="text" id="encrypt-file-path" required>
+                <label for="encrypt-key">Key:</label>
+                <input type="text" id="encrypt-key" required>
+                <button type="submit">Encrypt</button>
+            </form>
+        </div>
+        <div class="form-section">
+            <h2>Decrypt a File</h2>
+            <form id="decrypt-form">
+                <label for="decrypt-file-path">Encrypted File Path:</label>
+                <input type="text" id="decrypt-file-path" required>
+                <label for="decrypt-key">Key:</label>
+                <input type="text" id="decrypt-key" required>
+                <button type="submit">Decrypt</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
